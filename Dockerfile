@@ -1,2 +1,3 @@
-FROM ruby
-RUN gem install jekyll bundler rexml jekyll-feed jekyll-seo-tag
+FROM ruby:2.7-buster
+
+RUN gem install jekyll bundler
