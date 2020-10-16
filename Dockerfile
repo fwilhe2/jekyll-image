@@ -1,2 +1,2 @@
 FROM ruby
-RUN gem install jekyll bundler
+RUN gem install jekyll bundler rexml
